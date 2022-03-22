@@ -1,0 +1,704 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
+
+h2 {
+    margin: 0;
+    font-size: 33px;
+}
+
+h6 {
+    margin: 0;
+    font-size: 33px;
+}
+
+h1,
+h6 {
+    font-family: Shrikhand, Roboto, sans-serif;
+}
+
+footer {
+    display: block;
+    background-color: #353535;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    padding: 25px;
+    color: white;
+}
+
+footer h3 {
+    font-family: "Shrikhand", "sans-serif";
+    padding: 5px 0 20px 0;
+}
+
+footer a {
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 5px 0 5px 0;
+}
+
+footer ul .fa-utensils {
+    margin-right: 12px;
+}
+
+footer ul .fa-hands-helping {
+    margin-right: 5px;
+}
+
+.ra {
+    max-height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main__header h1 {
+    text-align: center;
+}
+
+.fa-handshake {
+    transform: rotate(-45deg);
+}
+
+.fa-utensils {
+    padding-right: 5px;
+}
+
+.about {
+    background: #f6f6f6;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.about h2 {
+    font-weight: bold;
+}
+
+.about p {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #4d4d4d;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9356DC;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #9356DC;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    right: 10px;
+}
+
+.heart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card figure {
+    margin: 0;
+}
+
+.card figcaption {
+    margin: 0;
+    padding: 10px;
+}
+
+.heart h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.loader__food {
+    vertical-align: middle;
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.main__menu {
+    background-color: #f6f6f6;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    position: relative;
+    margin-top: -50px;
+}
+
+.card {
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px #aaa;
+    margin: 20px;
+    position: relative;
+    background: #fff;
+}
+
+.card img {
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+    height: 100%;
+    max-height: 220px;
+}
+
+.main__restaurant {
+    background: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+}
+
+.cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2D0;
+    width: 50px;
+    height: 63px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    padding: 20px;
+    right: -50px;
+    top: 0;
+    opacity: 0;
+    transition: transform 330ms ease-in-out;
+}
+
+.cross .fa-check-circle {
+    color: #fff;
+    transition: transform 500ms ease-in-out;
+}
+
+.maps {
+    background: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0px 5px 5px 0px #dddddd;
+}
+
+.maps__search input {
+    border: none;
+    background: #eaeaea;
+    font-size: 1rem;
+    padding: 20px 5px 20px 5px;
+    margin-top: 5px;
+    text-align: center;
+    width: 150px;
+}
+
+.btn__about button {
+    background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    height: 50px;
+    width: 196px;
+    padding: 10px 5px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px #aaa;
+    cursor: pointer;
+}
+
+.btn__about button:hover {
+    background-color: #ae80e5;
+    background-blend-mode: lighten;
+    box-shadow: 4px 4px 6px #000;
+}
+
+.new {
+    color: #008766;
+    background: #99E2D0;
+    border: 5px solid #99E2D0;
+    border-radius: 5px;
+    position: absolute;
+    right: 4%;
+    top: 8%;
+}
+
+.fill {
+    color: grey;
+}
+
+.box__menu__title {
+    border-bottom: 3px solid #99e2d0;
+    width: 100px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.fill:hover {
+    animation: fill 1s ease-out;
+    background: linear-gradient(#FF79DA, #9356DC);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+}
+
+.header__img img {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.menu__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.arrow {
+    position: absolute;
+    left: 20px;
+}
+
+.menu__title {
+    font-family: Shrikhand, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.Ohmyfood {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Ohmyfood__card {
+    display: flex;
+    align-items: center;
+    height: 85px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding-left: 20px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px #c4c3c0;
+    animation: appear 0.5s;
+    animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
+    animation-fill-mode: both;
+}
+
+.Ohmyfood__card__txt {
+    width: 90%;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.Ohmyfood__card__txt--over {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+
+.Ohmyfood__card__price {
+    margin-left: 10px;
+}
+
+.Ohmyfood__card__check {
+    height: 90px;
+    width: 80px;
+    opacity: 0;
+    background-color: #99E2D0;
+    margin-left: 25px;
+    margin-right: -70px;
+    border-radius: 0 10px 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.Ohmyfood__card:hover :nth-child(3) {
+    opacity: 1;
+    margin-right: 0px;
+}
+
+.Ohmyfood__card:hover .icons_ok {
+    opacity: 1;
+    -webkit-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
+    transform: rotate(-360deg);
+}
+
+.starter h3,
+.dish h3,
+.dessert h3 {
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.btn__order button {
+    background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
+    border: 1px solid transparent;
+    border-radius: 30px;
+    padding: 10px 5px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 4px 4px 6px #aaa;
+    cursor: pointer;
+    margin: 30px 0;
+    padding: 20px;
+    width: 50%;
+}
+
+.btn__order button:hover {
+    background-color: #ae80e5;
+    background-blend-mode: lighten;
+    box-shadow: 4px 4px 6px #000;
+}
+
+.btn__order {
+    display: flex;
+    justify-content: center;
+}
+
+.operation {
+    margin-bottom: 50px;
+}
+
+.operation h2 {
+    padding: 20px;
+}
+
+.operation__steps {
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+.operation__steps li {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 25px;
+    margin: 15px 20px 15px 30px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px 2px #c4c4c4;
+    background-color: #f5f5f5;
+}
+
+.operation__steps li p {
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.operation__steps li:hover .fas {
+    color: #9356dc;
+}
+
+.operation__steps--number {
+    background-color: #9356dc;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 9px;
+    margin-left: -40px;
+}
+
+.operation__steps--icon {
+    color: grey;
+    font-size: 1.2rem;
+    margin-left: 20px;
+}
+
+
+/* Animation */
+
+@keyframes appear {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.anima1 {
+    animation-delay: 0.1s;
+}
+
+.anima2 {
+    animation-delay: 0.3s;
+}
+
+.anima3 {
+    animation-delay: 0.6s;
+}
+
+.anima4 {
+    animation-delay: 0.9s;
+}
+
+.anima5 {
+    animation-delay: 1.2s;
+}
+
+.anima6 {
+    animation-delay: 1.6s;
+}
+
+.icons_ok {
+    color: white;
+    font-size: 20px;
+    opacity: 0;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+}
+
+.delay1 {
+    -webkit-animation-delay: 0.1s;
+    animation-delay: 0.1s;
+}
+
+.delay2 {
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+}
+
+.delay3 {
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.delay4 {
+    -webkit-animation-delay: 0.9s;
+    animation-delay: 0.9s;
+}
+
+
+/* Mediaqueri */
+
+@media screen and (min-width: 1280px) {
+    .last__line p {
+        padding-right: 20px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .menu__title {
+        padding: 10px 90px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .full__menu {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.starter {
+    animation: fadein 3s ease-in-out;
+}
+
+@media screen and (min-width: 1280px) {
+    .starter {
+        width: 400px;
+    }
+}
+
+.dish {
+    animation: fadein 6s ease-in-out;
+}
+
+@media screen and (min-width: 1280px) {
+    .dish {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .operation h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .operation__steps {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.dessert {
+    animation: fadein 9s ease-in-out;
+}
+
+@media screen and (min-width: 1280px) {
+    .dessert {
+        width: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .number {
+        right: 0;
+        top: -15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .restaurant__title {
+        width: 100%;
+    }
+}
+
+.restaurant__title h3 {
+    padding: 30px 0px 0px 10px;
+    font-size: 33px;
+}
+
+@media screen and (min-width: 768px) {
+    .restaurant__title h3 {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .main__restaurant {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .main__restaurant {
+        padding: 0 20%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .btn__order button {
+        width: 25%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 667px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .Ohmyfood__card {
+        align-items: center;
+        height: 90px;
+        margin-bottom: 10px;
+        width: 80%;
+        cursor: pointer;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px #c4c3c0;
+        animation: appear 0.5s;
+        animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
+        animation-fill-mode: both;
+    }
+    .Ohmyfood {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 736px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .Ohmyfood__card {
+        align-items: center;
+        height: 90px;
+        margin-bottom: 10px;
+        width: 80%;
+        cursor: pointer;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px #c4c3c0;
+        animation: appear 0.5s;
+        animation-timing-function: cubic-bezier(0.57, -0.3, 0.36, 1.2);
+        animation-fill-mode: both;
+    }
+    .Ohmyfood {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 1000px) {
+    .Ohmyfood {
+        min-width: 300px;
+        align-items: center;
+        display: flex;
+    }
+}
